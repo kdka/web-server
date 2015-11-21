@@ -8,4 +8,11 @@ router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
 });
 
+/* GET about page. */
+router.get('/about', function(req, res, next) {
+    // log message
+    console.log(req.method + ' ' + req.originalUrl, new Date().toString());
+    res.render('about', { title: 'Express - About' });
+});
+
 module.exports = router;
