@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules/
+
+# Debug log from npm
+npm-debug.log
+
+# MAC Data Store
+.DS_Store
+
+# Util directory
+util
+
+# Notes directory
+notes
+
+# ENV data
+.env*
+
+# config data
+config.json
+
+# mvim backup files
+*~
+
+# mvim swap files
+*.swp
+
+# skip heroku Procfile
+Procfile
+
+# skip tmp file
+tmp
+
